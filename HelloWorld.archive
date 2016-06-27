@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <enterpriseArchive>
+        <sharedArchive name="Shared Archive">
+            <resourceType>shared.archive.resource</resourceType>
+            <authorProperty>Ram</authorProperty>
+        </sharedArchive>
+        <processArchive name="Process Archive">
+            <resourceType>process.archive.resource</resourceType>
+            <authorProperty>Ram</authorProperty>
+            <processProperty>/ProcessDefs/SayHello.process</processProperty>
+        </processArchive>
+        <versionProperty>2</versionProperty>
+        <authorProperty>Ram</authorProperty>
+        <addServiceSettableGvars>true</addServiceSettableGvars>
+        <name>HelloWorld</name>
+        <designer>
+            <lockedProperties/>
+            <fixedChildren/>
+            <resourceDescriptions/>
+        </designer>
+        <fileLocationProperty>C:\Users\Ram\Documents\Learning\Jenkins\BW\EAR\HelloWorld.ear</fileLocationProperty>
+    </enterpriseArchive>
+</Repository:repository>
